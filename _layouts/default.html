@@ -4,21 +4,24 @@
         <title>workinonit</title>
         <style type="text/css">
         body {
-        background-color: #d3dad3;
+        background-color: #fff;
         }
 
         div {
         width: 660px;
         margin: 0 auto;
-        text-align: center;
         font-family: helvetia, arial, sans-serif;
         font-size: 1em;
+        }
+
+        #logo {
+            border: 1px dotted #202020;
         }
         </style>
     </head>
     <body>
         <h1>
-            <a href="/"><img src="img/nham_logo.png" alt="nham"/></a>
+            <a id="logo" href="/"><img src="img/nham_logo.png" alt="nham"/></a>
         </h1>
 
         {{ content }}
